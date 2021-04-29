@@ -2,8 +2,28 @@
     margin: 0;
     padding: 0;
 }
-@import url('https://fonts.googleapis.com/css2?family=Source+Sans+Pro:wght@200&display=swap');
-@import url('https://fonts.googleapis.com/css2?family=Montserrat:wght@100&display=swap');
+@font-face {
+    font-family: 'SourceSansPro-Light';
+    src: url('../fonts/SourceSansPro-Light.ttf');
+}
+
+@font-face {
+    font-family: 'SourceSansPro-Regular';
+    src: url('../fonts/SourceSansPro-Regular.ttf');
+}
+
+@font-face {
+    font-family: 'montserrat-ultra-light';
+    src: url('../fonts/montserrat-ultra-light.otf');
+}
+
+@font-face {
+    font-family: 'Montserrat-Bold';
+    src: url('../fonts/Montserrat-Bold.ttf');
+}
+
+/* @import url('https://fonts.googleapis.com/css2?family=Source+Sans+Pro:wght@200&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Montserrat:wght@100&display=swap'); */
 html{
     box-sizing: border-box;
 }
@@ -44,9 +64,9 @@ body{
     background-image: url('../img/forest.png'); 
 }
 .icon-circle {
-    font-family: 'Source Sans Pro', sans-serif;
+    font-family: SourceSansPro-Regular;
     color: #a1b0ba;
-    font-size: 16px;
+    font-size: 14px;
     border-radius: 50%;
     width: 120px;
     height:120px;
@@ -68,14 +88,17 @@ body{
     background-color: #2c2e3d;
 }
 .price-blue {
+    font-family: SourceSansPro-Light;
     color: #a2cbfb;
     font-size: 32px;
 }
 .price-violet {
+    font-family: SourceSansPro-Light;
     color: #763661;
     font-size: 32px;
 }
 .price-green {
+    font-family: SourceSansPro-Light;
     color: #6dbf64;
     font-size: 32px;
 }
@@ -88,8 +111,8 @@ body{
     height: 100%;
 }
 .text-title {
-    font-family: 'Montserrat', sans-serif;
-    font-size: 36px;
+    font-family: montserrat-ultra-light;
+    font-size: 40px;
     color:#fcfcfd;
     position: absolute;
     top:50%;
@@ -97,15 +120,18 @@ body{
     transform: translate(-50%,-50%);
 }
 .text-title-small{
+    font-family: SourceSansPro-Light;
     font-size: 14px;
     padding: 5px;
+    color: #b6c6c9;
+
 }
 
 .header-text {
     padding: 25px;
 }
 .header-text-title {
-    font-family: 'Source Sans Pro', sans-serif;
+    font-family:SourceSansPro-Light;
     font-size: 24px;
     color: #5f727f;
     padding: 5px;
@@ -113,12 +139,14 @@ body{
 .header-text-small {
     font-size: 14px;
     color: #99a9b5;
-    font-family: 'Source Sans Pro', sans-serif;
+    font-family: SourceSansPro-Light;
 }
 .list-content {
     list-style-type: none;
     font-size: 16px;
     color: #5f727f;
+    font-family: SourceSansPro-Regular;
+
 }
 .list-content > li {
     padding:15px
@@ -133,8 +161,7 @@ body{
     width: 170px;
     height: 48px;
     background-color: #ffffff;
-    padding: 16px 28px;
-    font-family: 'Source Sans Pro', sans-serif;
+    font-family: montserrat-ultra-light;
     font-size: 16px;
 }
 .btn-blue {
