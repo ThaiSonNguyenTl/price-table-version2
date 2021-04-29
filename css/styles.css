@@ -48,7 +48,7 @@ body{
     margin: 0px 20px 80px;
     width: 362px;
 }
-.header {
+.card-top {
     position: relative;
     width: 100%;
     padding-bottom: 75%;
@@ -87,24 +87,22 @@ body{
 .bg-circle-black {
     background-color: #2c2e3d;
 }
-.price-blue {
+.text-size {
     font-family: SourceSansPro-Light;
-    color: #a2cbfb;
     font-size: 32px;
+}
+.price-blue {
+    color: #a2cbfb;
 }
 .price-violet {
-    font-family: SourceSansPro-Light;
     color: #763661;
-    font-size: 32px;
 }
 .price-green {
-    font-family: SourceSansPro-Light;
     color: #6dbf64;
-    font-size: 32px;
 }
 
 .color-cover {
-    background-color: rgba(53, 79, 110, 0.5);
+    background-color: rgba(44, 59, 79, 0.7);
     position: absolute;
     top: 0px;
     width: 100%;
@@ -127,16 +125,16 @@ body{
 
 }
 
-.header-text {
+.card-text {
     padding: 25px;
 }
-.header-text-title {
+.card-text-title {
     font-family:SourceSansPro-Light;
     font-size: 24px;
     color: #5f727f;
     padding: 5px;
 }
-.header-text-small {
+.card-text-small {
     font-size: 14px;
     color: #99a9b5;
     font-family: SourceSansPro-Light;
